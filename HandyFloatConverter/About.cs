@@ -10,10 +10,13 @@ using System.Windows.Forms;
 
 namespace HandyFloatConverter
 {
-    public partial class Form1 : Form
+    public partial class About : Form
     {
-        public Form1()
+        public About()
         {
+            Icon = Properties.Resources.FoxLogo;
+            text_AboutDescription.Text = Properties.Resources.About_Description;
+
             InitializeComponent();
         }
     }
